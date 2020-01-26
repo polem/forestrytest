@@ -7,3 +7,8 @@ fields:
   config:
     required: false
   label: Test
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
