@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/galleries/*md
+- type: directory
+  path: src/galleries
   label: Galleries
+  create: all
+  match: "*.md"
+  templates:
+  - gallerie
 - type: heading
   label: Content
 - type: directory
