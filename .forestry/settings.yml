@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: galleries
+  path: src/galleries/*md
   label: Galleries
   match: "**/*"
 - type: heading
